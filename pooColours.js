@@ -47,9 +47,9 @@ function addABit(toWhat) {
 	var randomPermutation = Math.floor((Math.random()*4)-2);
 	var toAdd = parseInt(toWhat,16);
 	toAdd += randomPermutation;
-    if (toAdd <= 9) {
-        return "0"+toAdd.toString(16);
-    } else {
-        return toAdd.toString(16);
-    }
+	if (toAdd <= 9) {
+		return "0"+toAdd.toString(16);
+	} else {
+		return toAdd.toString(16);
+	}
 }
