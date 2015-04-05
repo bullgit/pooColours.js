@@ -18,7 +18,10 @@ pooColours is a JavaScript script to randomly generate hex poo colours. The colo
 
 ## meh, js is boring
 
-Well, there's now an SCSS-function too by @pixelass. Example use by him in [this codepen](http://codepen.io/pixelass/pen/pvmyqV)
+Well, there's now an SCSS-function too by @pixelass. Example use by him in [this codepen](http://codepen.io/pixelass/pen/pvmyqV).
+
+<p data-height="212" data-theme-id="0" data-slug-hash="pvmyqV" data-default-tab="result" data-user="pixelass" class='codepen'>See the Pen <a href='http://codepen.io/pixelass/pen/pvmyqV/'>SCSS poo-color()</a> by Gregor Adams (<a href='http://codepen.io/pixelass'>@pixelass</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ## contributing
 
