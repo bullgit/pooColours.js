@@ -6,13 +6,11 @@ function pooColour() {
 			colour += addABit("4D");
 			colour += addABit("33");
 			colour += addABit("18");
-
 			break;
 		case 2:
 			colour += addABit("33");
 			colour += addABit("22");
 			colour += addABit("0D");
-
 			break;
 		case 3:
 			colour += addABit("89");
