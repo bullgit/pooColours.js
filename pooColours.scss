@@ -1,0 +1,16 @@
+@function poo-colour() {
+  $colors: (
+    #4d3318,
+    #33220d,
+    #794d1d,
+    #895735,
+    #281202,
+    #553818,
+    #bb9612
+  );
+  $poo1: nth($colors, ceil(random()*7));
+  $poo2: nth($colors, ceil(random()*7));
+  $poo3: nth($colors, ceil(random()*7));
+  $poo4: nth($colors, ceil(random()*7));
+  @return mix($poo4, mix($poo3, mix($poo1, $poo2)));
+}
