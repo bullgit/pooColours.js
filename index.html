@@ -16,7 +16,7 @@
 		<h3 class="text-muted">Project name</h3>
 	</div>
 
-	<div class="jumbotron">
+	<div class="jumbotron" id="jumbo">
 		<h1>pooColours</h1>
 		<p class="lead">As we all know. Having colours that look like poo are an extremely important thing to have in this day and age. That's why we at bullgit make the resources for everyone to have their own pooColours</p>
 		<button class="btn btn-lg btn-success" onclick="setBackground("jumbotron")">Change the colour</button>
@@ -33,7 +33,7 @@
 			<h4>SCSS</h4>
 			<p>Yes, there are people that want this implemented different too. That's why we made an scss-mixin for this too.</p>
 			<iframe height='249' scrolling='no' src='//codepen.io/pixelass/embed/pvmyqV/?height=249&theme-id=0' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/pixelass/pen/pvmyqV/'>SCSS poo-color()</a> by Gregor Adams (<a href='http://codepen.io/pixelass'>@pixelass</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+			</iframe>
 		</div>
 
 		<div class="col-lg-6">
@@ -60,8 +60,14 @@
 	<script src="pooColours.js"></script>
 	<!-- I need this script to show how to change the background -->
 	<script>
-		function setBackground (argument) {
-			document.getElementsByClassName(argument).style.backgroundColour=pooColour();
+		function setBackground () {
+			// var elements = document.getElementsByClassName(argument);
+			// for(var i = 0; i < elements.length; i++) {
+			// 	var col = pooColour();
+			// 	elements[i].style.backgroundColour="col";
+			// }
+			var variable = pooColour();
+			document.getElementById('jumbo').style.backgroundColour="variable";
 		}
 	</script>
 </div>
